@@ -1,0 +1,60 @@
+/* MAIN STYLE SHEET FOR SITE */
+
+
+/***************************** GENERAL PAGE STYLES */
+
+body {
+  margin: 0;
+}
+
+.header-content {
+  background-color: rgba(136, 136, 135, 0.83);
+  background: linear-gradient(to bottom, rgba(136, 136, 135, 0.83) 30%, rgb(182, 221, 151));
+  height: 200px;
+}
+
+.header-main {
+  margin: 0 0 10px 0;
+  padding: 0 0 10px 5px;
+  color: rgb(242, 242, 242);
+  font-weight: bolder;
+  text-shadow: 2px 2px 4px black;
+}
+
+nav {
+  background-color: rgb(182, 221, 151);
+}
+
+.nav-links {
+  list-style-type: none;
+  margin-top: 100px;
+  padding: 10px;
+  box-shadow: 2px 5px 20px black;
+}
+
+li {
+  display: inline;
+}
+
+li a {
+  text-decoration: none;
+  padding:10px 10px 10px 0;
+  color: rgb(119, 119, 119);
+}
+
+li a:hover {
+  background-color: rgba(136, 136, 135, 0.83);
+  color: black;
+}
+
+/***************************** HOME PAGE STYLES */
+
+.content-container {
+  margin-top: 100px;
+}
+
+
+
+/***************************** ABOUT PAGE STYLES */
+
+/***************************** PROJECT PAGE STYLES */
