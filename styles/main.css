@@ -20,19 +20,19 @@ p {
 }
 
 .header-main {
-  margin: 0 0 10px 0;
-  padding: 0 0 10px 5px;
+  margin: 0 0 0px 0;
+  padding: 0 0 10px 20px;
   color: rgb(242, 242, 242);
   font-weight: bolder;
   text-shadow: 2px 2px 4px black;
 }
 
 h1 {
-  font-family: 'Pacifico';
+  font-family: 'Pacifico', cursive;
 }
 
-h2 {
-  font-family: 'Lobster Two';
+h3 {
+  font-family: 'Lobster Two', cursive;
 }
 
 nav {
@@ -53,6 +53,7 @@ li a {
   text-decoration: none;
   padding: 15px;
   color: rgb(119, 119, 119);
+  font-family: 'Lobster Two', cursive;
 }
 
 li a:hover {
